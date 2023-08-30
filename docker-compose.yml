@@ -13,7 +13,7 @@ services:
     volumes:
       - .:/code
     ports:
-      - "8001:8001"
+      - "8003:8001"
     environment:
       - POSTGRES_NAME=postgres
       - POSTGRES_USER=postgres
